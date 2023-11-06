@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Poppins:wght@200;400&display=swap');
+* {
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.heros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.villans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.scores {
+    font-size: xx-large;
+}
+.div-body {
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 280px 200px 280px;
+    grid-gap: 30px 30px;
+}
+.spiderman-body {
+    border:solid black;
+    border-radius: 10px;
+    border-width: 0.5px;
+}
+.hulk-body {
+    border:solid black;
+    border-radius: 10px;
+    border-width: 0.5px;
+}
+.blackpanther-body {
+    border: solid black;
+    border-radius: 10px;
+    border-width: 0.5px;
+}
+.thanos-body {
+    border:solid black;
+    border-radius: 10px;
+    border-width: 0.5px;
+}
